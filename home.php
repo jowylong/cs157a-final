@@ -381,7 +381,7 @@ function show_table($conn) {
     }
     echo "</table>";
     
-    //INSERT GAME FUNCTION
+    //INSERT RENTAL GAME FUNCTION
     if (isset($_POST['rental_game_insert'])) {
         $g_id = $_POST['game_id'];
         $c_id = $_POST['customer_id'];
