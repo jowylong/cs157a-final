@@ -362,9 +362,9 @@ function show_table($conn) {
     echo "<table border='1'>";
     echo "<b>Currently Rented Game Information</b>";
     echo "<tr>
-            <td>Game ID</td>
-            <td>Customer ID</td>
-            <td>Assigned Staff ID</td>
+            <td><b>Game ID</b></td>
+            <td><b>Customer ID</b></td>
+            <td><b>Assigned Staff ID</b></td>
             <td><b>Operation</b></td>
         </tr>\n";
     while ($row = mysqli_fetch_assoc($result)) {
