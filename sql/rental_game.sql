@@ -7,8 +7,6 @@ CREATE TABLE `rental_game` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
-INSERT INTO `rental_game` (`game_id`, `customer_id`, `staff_id`) VALUES
-(23, 12345, 11111);
 
 
 ALTER TABLE `rental_game`
